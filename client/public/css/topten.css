@@ -1,0 +1,46 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
+
+table {
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    list-style-position: inside;
+}
+
+th {
+    padding: 25px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+td {
+    /* Not in HTML but included in JS*/
+    padding: 5px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+h2 {
+    color: peru;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}

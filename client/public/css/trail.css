@@ -1,0 +1,226 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding-bottom: 30px;
+}
+
+#wagon_on_trail {
+  /* make the trail image a background image (that will change later on) so that our wagon can be on top of it and move freely */
+  background-image: url('/images/Grassland.png');
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  width: 1172px;
+  height: 600px;
+  background-repeat: no-repeat;
+}
+
+#wagon {
+  position: relative;
+  width: 30%;
+  top: 60%;
+  /* value will change when the game starts with JS- start at 1000px to 100px*/
+  margin-left: 0px;
+}
+
+#option {
+  float:left; 
+  width: 20%; 
+  margin-left: 100px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+}
+
+h2 span {
+  background-color: antiquewhite;
+}
+
+.space {
+  text-align: center;
+}
+
+#list {
+  float: left; 
+  width:30%;
+}
+
+ol {
+    padding-top: 5px;
+    margin-left: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22.5px;
+    list-style-position: inside;
+  }
+
+li {
+    padding-top: 5px;
+}
+
+h1 {
+  color: peru;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+}
+
+#myModal {
+  display: none; /* Hidden by default */
+  position: relative;  /*Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+}
+
+#myModal2 {
+  display: none; /* Hidden by default */
+  position: relative;  /*Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+}
+
+#myModal3 {
+  display: none; /* Hidden by default */
+  position: relative;  /*Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+}
+
+#score {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+}
+
+#centering {
+  text-align: center;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* change pointer when over x button */
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+h3 {
+  margin-left: 29%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+}
+
+h4 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  color: peru;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: x-large;
+}
+
+h5 {
+  text-align: center;
+  color: peru;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: x-large;
+}
+
+input[type=text] {
+  /* text box styling */
+  vertical-align: middle;
+  padding: 8px 8px;
+  margin: 8px 8px;
+}
+
+.differences {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+}
+
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 400px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -180px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}

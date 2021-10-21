@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <title>Trail</title>
+    <link rel = "icon" href = "/images/wagon.png">
+    <link rel = "stylesheet" href = "/css/global.css">
+    <link rel = "stylesheet" href = "/css/trail.css">
+<body>
+    <img src = "/images/OregonTrailMap.png" alt = "The Oregon Trail" class = "center">
+
+    <!-- This is the wagon that goes on top of the trail image in a div so that it stays with the image when resizing -->
+    <div id = "wagon_on_trail">
+        <img id = "wagon" src = "/images/BisonWagon.png" alt = "Bison and Wagon">
+    </div>
+
+    <!-- Create divs (like columns) for the bottom text -->
+    
+    <div id = "option">
+        <h2>Select an Option</h2>
+        <h2><span>Click Party Health Status to see your messages</span></h2>
+    </div>
+    
+    <div id = "list">
+        <ol>
+            <!-- Spans with example text that will be replaced later with JS -->
+            <li>Days on trail: <span id = "days">  </span> </li> 
+            <li>Miles Traveled: <span id = "miles">  </span> </li> 
+            <div class = "popup">
+            <li id = "popup">Party Health Status: <span id = "health"> </span> </li>
+            <!-- Messages popup -->
+            <span class = "popuptext" id = "myPopup"></span>
+            </div>
+            <li>Current Weather: <span id = "weather">  </span> </li> 
+            <li>Current Pace: <span id = "pace">  </span> </li> 
+            <li>Current Terrain: <span id = "terrain">  </span> </li> 
+            <li># of Party Members Alive: <span id = "alive">  </span> </li> 
+        </ol>
+    </div>
+    
+    <div id = "option">
+        <h1 id = "travel_options">Press ENTER to travel a day or SPACEBAR to change pace!</h1>
+    </div>
+        <!-- Change Pace Modal -->
+        <div id = "myModal">
+            <div class = "modal-content">
+                <span class = "close" id = "closeModal">&times;</span>
+                <div id = "paces">
+                    <h4> Change Pace:</h4>
+                    <h3> The pace at which you travel can change. Your choices are: </h3>
+                    <ol>
+                        <li id = "steady">a steady pace</li>
+                        <li id = "strenuous">a strenuous pace</li>
+                        <li id = "grueling">a grueling pace</li>
+                        <li id = "resting">a resting pace</li>
+                        <li id = "differences">find out what these different paces mean</li>
+                    </ol>
+                    <h2 class = "center">What is your choice?</h2>
+                </div>
+            </div> 
+        </div>
+
+        <!-- Game Over (Lost) Modal -->
+        <div id = "myModal2">
+            <div class = "modal-content" id = "centering">
+                <div class="modal-header">
+                    <h1> GAME OVER</h1>
+                </div>
+                <div>
+                    <p class = "differences">All the people in your party have died.</p>
+                </div>
+                <h2 id = "playAgain">Press R to go to the main menu or play again!</h2>
+            </div>
+        </div>
+        <!-- Game Over (Win) Modal -->
+        <div id = "myModal3">
+            <div class = "modal-content" id = "centering">
+                <div class="modal-header">
+                    <h1> Congratulations! You have made it to Oregon!</h1>
+                </div>
+                <div>
+                    <p class = "differences">Let's see how many points you have recieved.</p>
+                </div>
+                <span id = "score"></span>
+                <div>
+                    <p class = "differences">Enter your name to see if you made the Top Ten!</p>
+                </div>
+
+                <p class = "differences"> Player Name: <input id = "userName" type = "text"/> <br/></p>
+
+                <h2 id = "playAgain">Press ENTER to go to the main menu or play again!</h2>
+            </div>
+        </div>
+
+        </body>
+    
+
+    <script src = "/js/global.js"></script>
+    <script src = "/js/trail.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+html {
+    /* full screen cover image */
+    height: 100%;
+}
+
+body {
+    background-image: url(/images/MainPageImage.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: cornsilk;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 250px;
+}
+
+h2 {
+    color: rgb(231, 218, 161);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: x-large;
+    /* pulsate animation for 5 seconds forever*/
+    -webkit-animation: pulsate 5s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.5;
+}
+
+@-webkit-keyframes pulsate {
+    /* set the opacity at the beginning, middle, and end */
+    0% { 
+        opacity: 0.25;
+    }
+    50% { 
+        opacity: 1.0;
+    }
+    100% { 
+        opacity: 0.25;
+    }
+}
+
+

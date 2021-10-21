@@ -1,0 +1,80 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.button {
+    vertical-align: middle;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+.button-2 {
+    vertical-align: middle;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}
+
+input[type=text] {
+    /* text box styling */
+    vertical-align: middle;
+    padding: 8px 8px;
+    margin: 8px 8px;
+  }
+
+ol {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    list-style-position: inside;
+}
+
+li {
+    padding: 5px;
+}
+
+p { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;  
+}
+
+.game {
+    margin-left: 26%;
+    padding-left: 20px;
+}
+
+.gamediff {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.diff {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    padding-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}
+
+h3 {
+    color: peru;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}
